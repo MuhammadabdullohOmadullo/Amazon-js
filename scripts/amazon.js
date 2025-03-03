@@ -81,7 +81,8 @@ function renderProductsGrid() {
   .forEach((button) => {
     button.addEventListener('click', () => {
       const productId = button.dataset.productId;
-      addToCart(productId);
+
+      (productId);
       updateCartQuantity();
     });
   });
